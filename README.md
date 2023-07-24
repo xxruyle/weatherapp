@@ -1,6 +1,8 @@
 # Weather App
-A basic weather app inspired by the odin project 
+A basic weather app
 
 # Web Preview 
+https://xxruyle.github.io/weatherapp/
+
 
 ![](images/preview.png)
