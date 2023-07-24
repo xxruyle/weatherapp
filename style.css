@@ -1,0 +1,95 @@
+html, body {
+    margin: 0; 
+    height: 100%;
+    
+}
+
+body {
+    background-image: url('images/evening.jpg');
+    background-size: cover;
+}
+
+input[type='text'] {
+    width: 19rem;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 1em;
+    padding: 0.4em; 
+    color: #ffffff;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
+
+
+.search-bar .hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+
+.search-bar:hover .hidden {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.info {
+    color: rgb(180, 168, 168); 
+}
+
+.display-container {
+    color: white; 
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 100px; 
+
+    margin-left: 15%;
+
+    flex-wrap: wrap;
+}
+
+
+
+
+.search-bar {
+    position: absolute;
+    right: 0; 
+    margin-right: 2em;
+}
+
+
+
+.condition { 
+    font-size: 2em;
+}
+
+.location { 
+    font-size: 6em;
+
+    font-weight: 900;
+}
+
+.time {
+    font-size: 2em;
+}
+
+.temperature {
+    font-size: 4em;
+    font-weight: 600;
+
+}
+
+.temperature-container {
+    display: flex; 
+}
+
+.unit { 
+    font-size: 2em;
+}
+
+.specific-info {
+    font-size: 20px;
+}
