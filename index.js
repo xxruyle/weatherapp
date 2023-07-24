@@ -15,7 +15,6 @@ const getData = async (locationInfo) => {
         console.log(err);
     });
 
-    console.log(data);
 
     const time = new Date(data.location.localtime); 
     const standardTime = time.toLocaleTimeString('en-US');
