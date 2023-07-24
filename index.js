@@ -1,5 +1,5 @@
 const getWeather = async (location) => {
-    const weatherLink = `http://api.weatherapi.com/v1/current.json?key=10e592c59e4644edb18195854232407&q=${location}&aqi=no`;
+    const weatherLink = `https://api.weatherapi.com/v1/current.json?key=10e592c59e4644edb18195854232407&q=${location}&aqi=no`;
 
 
     const weatherResponse = await fetch(weatherLink, {mode: 'cors'});
